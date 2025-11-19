@@ -179,18 +179,6 @@ const EmergencyDietSystem = () => {
                 Seleccionar Archivo CSV
               </label>
             </div>
-
-            <div className="mt-8 p-4 bg-blue-50 rounded-lg">
-              <h3 className="font-semibold text-gray-700 mb-2">📋 Formato esperado del CSV (Kaggle Emergency Dataset):</h3>
-              <code className="text-xs text-gray-600 block">
-                Sex, Arrival_mode, Injury, Chief_complain, Mental, Pain, NRS_pain, SBP, DBP, HR, RR, BT, KTAS, etc.
-              </code>
-              <p className="text-xs text-gray-500 mt-2">
-                ✓ Compatible con el dataset de Kaggle: Emergency Service Triage Application<br/>
-                ✓ Los nombres de pacientes se generan automáticamente (datos anónimos)<br/>
-                ✓ NO se utiliza edad - solo género, peso estimado y datos clínicos
-              </p>
-            </div>
           </div>
         </div>
       </div>
